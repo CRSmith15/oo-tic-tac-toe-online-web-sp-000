@@ -58,6 +58,8 @@ class TicTacToe
       turn
     end
   end
+  
+  
 
   def play
     @board = Array.new(9, " ")
