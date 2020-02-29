@@ -79,7 +79,9 @@ class TicTacToe
     !won? && full?
   end
   
-  
+  def over?
+    won? || draw?
+  end
 
   def play
     @board = Array.new(9, " ")
