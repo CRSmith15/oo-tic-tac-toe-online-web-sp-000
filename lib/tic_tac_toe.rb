@@ -75,6 +75,10 @@ class TicTacToe
     !@board.any?{|x| x == "" || x == " "}
   end
   
+  def draw?
+    !won? && full?
+  end
+  
   
 
   def play
