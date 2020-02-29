@@ -70,6 +70,8 @@ class TicTacToe
     }
     return a || b
   end
+  
+  
 
   def play
     @board = Array.new(9, " ")
