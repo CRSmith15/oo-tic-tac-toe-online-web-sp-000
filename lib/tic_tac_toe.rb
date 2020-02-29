@@ -71,6 +71,10 @@ class TicTacToe
     return a || b
   end
   
+  def full?
+    !@board.any?{|x| x == "" || x == " "}
+  end
+  
   
 
   def play
